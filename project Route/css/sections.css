@@ -1,0 +1,91 @@
+#am-head h2
+{
+    font-size: 55px;
+    color: slategray;
+}
+#am-body .am-filter
+{
+    width: 25%;
+    background-color: darkgray;
+    position: absolute;
+    right: 30px;
+    top: 99px;
+}
+
+.am-card h5
+{
+    height: 45px;
+    color: black;
+}
+.am-card p
+{
+    font-weight: 600;
+    color: slategray;
+    font-size: 20px;
+    margin: 0;
+}
+.am-filter p
+{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.am-slidecontainer {
+  width: 100%;
+}
+
+.am-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.am-slider:hover {
+  opacity: 1;
+}
+
+.am-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #09c;
+  cursor: pointer;
+}
+
+.am-slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.am-header
+{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding: 5px;
+    color: dimgrey;
+    
+}
+.am-cart h5
+{
+    color: grey;
+}
+.am-cart p
+{
+    margin: 0;
+    display: inline-block;
+    padding: 0px 10px;
+}
+#am-minBtn , #am-plusBtn
+{
+    opacity: 0.5;
+}
+#am-minBtn:hover , #am-plusBtn:hover
+{
+    opacity: 1;
+}
